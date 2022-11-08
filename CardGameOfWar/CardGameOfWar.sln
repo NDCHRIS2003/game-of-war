@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGameOfWar.App", "CardGameOfWar.App\CardGameOfWar.App.csproj", "{A56C6863-E151-4847-83B4-9CCF2AB96889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameOfWar.Test", "CardGameOfWar.Test\CardGameOfWar.Test.csproj", "{969B3FC3-6C0C-4C51-B3D5-F56DBF5099A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56C6863-E151-4847-83B4-9CCF2AB96889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56C6863-E151-4847-83B4-9CCF2AB96889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56C6863-E151-4847-83B4-9CCF2AB96889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56C6863-E151-4847-83B4-9CCF2AB96889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969B3FC3-6C0C-4C51-B3D5-F56DBF5099A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969B3FC3-6C0C-4C51-B3D5-F56DBF5099A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969B3FC3-6C0C-4C51-B3D5-F56DBF5099A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969B3FC3-6C0C-4C51-B3D5-F56DBF5099A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFCE6CD9-2744-40A2-BD4A-BA9F802F6FB8}
+	EndGlobalSection
+EndGlobal

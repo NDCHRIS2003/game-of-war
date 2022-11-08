@@ -1,0 +1,15 @@
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\bin\Debug\net6.0\CardGameOfWar.App.exe
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\bin\Debug\net6.0\CardGameOfWar.App.deps.json
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\bin\Debug\net6.0\CardGameOfWar.App.runtimeconfig.json
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\bin\Debug\net6.0\CardGameOfWar.App.dll
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\bin\Debug\net6.0\CardGameOfWar.App.pdb
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\CardGameOfWar.App.csproj.AssemblyReference.cache
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\CardGameOfWar.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\CardGameOfWar.App.AssemblyInfoInputs.cache
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\CardGameOfWar.App.AssemblyInfo.cs
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\CardGameOfWar.App.csproj.CoreCompileInputs.cache
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\CardGameOfWar.App.dll
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\refint\CardGameOfWar.App.dll
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\CardGameOfWar.App.pdb
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\CardGameOfWar.App.genruntimeconfig.cache
+C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net6.0\ref\CardGameOfWar.App.dll
