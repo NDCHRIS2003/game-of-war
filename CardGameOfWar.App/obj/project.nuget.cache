@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nLqnTZZa0wirSZHgEg7IOtQYDgzDnzrlU9tAxkdZw4wxR/1NxPcksInlqn7Rzs9WI3C8OB49o3f9cH1GbRtK3A==",
+  "dgSpecHash": "X8N5nc8JUvL94L5/N3vfo8d1Z+XxQVqE5MWtNbQGRTWrcdVSZchaRQjnqwH5q9oSz9b76TxJnFu2d1wuscEOsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ndchr\\Desktop\\repo\\games-dotnet-projects\\card-game-of-war\\CardGameOfWar\\CardGameOfWar.App\\CardGameOfWar.App.csproj",
+  "projectFilePath": "C:\\Users\\ndchr\\Desktop\\repo\\game-of-war\\CardGameOfWar.App\\CardGameOfWar.App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
