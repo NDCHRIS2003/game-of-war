@@ -19,7 +19,7 @@ namespace CardGameOfWar.App.Models
             var cardList = string.Empty;
             int no = 1;
 
-            foreach(var card in CardDeck)
+            foreach (var card in CardDeck)
             {
                 cardList += $"{no}. {card.CardValue} {card.SuitValue}";
                 no++;

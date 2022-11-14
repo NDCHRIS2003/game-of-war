@@ -8,9 +8,9 @@ namespace CardGameOfWar.App.Controller
 {
     public class GameController
     {
-        SuitEnum trumpSuit;
-        List<Player> player;
-        PlayerService playerService;
+        private readonly SuitEnum trumpSuit;
+        private readonly List<Player> player;
+        private readonly PlayerService playerService;
         public GameController(int trumpSuitNumber)
         {
             try
@@ -51,7 +51,7 @@ namespace CardGameOfWar.App.Controller
             else
             {
                 Console.WriteLine($"Winner of the game is player {winnerPlayer + 1} with a winning pile of:");
-                Console.WriteLine($"Deck in hand: \n {player[winnerPlayer ?? 0]}");
+                Console.WriteLine($"Deck in hand: \n {player[winnerPlayer ?? 0].ShowScoreDeck()}");
                 Console.WriteLine($"Deck in Score Pile: \n {player[winnerPlayer ?? 0].ShowScoreDeck()}");
             }
         }
@@ -70,7 +70,7 @@ namespace CardGameOfWar.App.Controller
             }
             else if (playerOneCard.SuitValue.Equals(trumpSuit))
             {
-                return 1;
+                return 1; 
             }
             else if (PlayerTwoCard.SuitValue.Equals(trumpSuit))
             {

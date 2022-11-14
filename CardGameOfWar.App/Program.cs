@@ -13,13 +13,13 @@ while (true)
            
             var trumpNumber = Console.ReadKey();           
            
-            var gamingEngine = new GameController(GerConsoleKeyNumber(trumpNumber));
+            var gamingEngine = new GameController(GetConsoleKeyNumber(trumpNumber));
            
             gamingEngine.PlayGame();
 
             Console.WriteLine("Press 1 to play again");
             play = Console.ReadKey();
-        } while (GerConsoleKeyNumber(play) == 1);
+        } while (GetConsoleKeyNumber(play).Equals(1));
     }
     catch (Exception)
     {
@@ -28,7 +28,7 @@ while (true)
 
 }
 
-static int GerConsoleKeyNumber(ConsoleKeyInfo number)
+static int GetConsoleKeyNumber(ConsoleKeyInfo number)
 {
     if (char.IsDigit(number.KeyChar))
     {
