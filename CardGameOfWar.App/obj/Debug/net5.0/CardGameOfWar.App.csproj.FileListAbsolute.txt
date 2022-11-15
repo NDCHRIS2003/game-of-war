@@ -1,5 +1,0 @@
-C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net5.0\CardGameOfWar.App.csproj.AssemblyReference.cache
-C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net5.0\CardGameOfWar.App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net5.0\CardGameOfWar.App.AssemblyInfoInputs.cache
-C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net5.0\CardGameOfWar.App.AssemblyInfo.cs
-C:\Users\ndchr\Desktop\repo\games-dotnet-projects\card-game-of-war\CardGameOfWar\CardGameOfWar.App\obj\Debug\net5.0\CardGameOfWar.App.csproj.CoreCompileInputs.cache

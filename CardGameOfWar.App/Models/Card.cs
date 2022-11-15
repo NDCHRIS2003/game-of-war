@@ -9,7 +9,7 @@ namespace CardGameOfWar.App.Mosdels
 
         public override string ToString()
         {
-            return $"{ CardValue} {SuitValue} \n ";
+            return $"{CardValue} {SuitValue} \n ";
         }
     }
 }
