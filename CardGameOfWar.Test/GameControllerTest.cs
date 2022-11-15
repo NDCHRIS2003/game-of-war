@@ -3,21 +3,19 @@ using CardGameOfWar.App.Controller;
 using CardGameOfWar.App.Enums;
 using CardGameOfWar.App.Models;
 using CardGameOfWar.App.Mosdels;
-using CardGameOfWar.App.Service;
-using Moq;
 
 namespace CardGameOfWar.Test
 {
     public class GameControllerTest
     {
-        private readonly PlayerService playerService;
+        private readonly Player player;
         private readonly Fixture fixture;
         private readonly GameController gameController;
         private const SuitEnum TrumpCard = SuitEnum.Clubs;
        
         public GameControllerTest()
         {
-            playerService = new PlayerService();
+            player = new Player();
             fixture = new Fixture();
             gameController = new GameController((int)TrumpCard);
         }
@@ -27,7 +25,7 @@ namespace CardGameOfWar.Test
         {
             var players = GetPlayers();
             
-            playerService.ShuffleDealDeck(players);
+            player.ShuffleDealDeck(players);
             OriginalCardDeck.ResetCardDeck();
             
             gameController.PlayGame();
