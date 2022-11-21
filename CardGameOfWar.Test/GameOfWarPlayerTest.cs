@@ -4,10 +4,10 @@ using CardGameOfWar.App.Mosdels;
 
 namespace CardGameOfWar.Test
 {
-    public class PlayerTest
+    public class GameOfWarPlayerTest
     {        
         private readonly Fixture fixture;
-        public PlayerTest()
+        public GameOfWarPlayerTest()
         {            
             fixture = new Fixture();
         }
@@ -16,7 +16,7 @@ namespace CardGameOfWar.Test
         [Fact]
         public void ShouldDrawCardForPlayer()
         {
-            var player = fixture.Build<Player>().Create();
+            var player = fixture.Build<GameOfWarPlayer>().Create();
 
             var result = player.DrawCard();
             

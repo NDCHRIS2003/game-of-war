@@ -1,8 +1,10 @@
-﻿using CardGameOfWar.App.Mosdels;
+﻿using CardGameOfWar.Abstractions;
+using CardGameOfWar.App.Mosdels;
 
 namespace CardGameOfWar.App.Models
 {
-    public class Player
+    public class GameOfWarPlayer :
+        IGameOfWarPlayer
     {
         public List<Card> CardDeck { get; set; }
 
@@ -10,7 +12,7 @@ namespace CardGameOfWar.App.Models
 
         private readonly Random random ;
 
-        public Player()
+        public GameOfWarPlayer()
         {
             CardDeck = new List<Card>();
             ScoreDeck = new List<Card>();
@@ -58,7 +60,7 @@ namespace CardGameOfWar.App.Models
             return card;
         }
 
-        public List<Card> ShufflePlayerDeck(List<Card> cardDeck)
+        private List<Card> ShufflePlayerDeck(List<Card> cardDeck)
         {
             var playerCards = new List<Card>();
 
@@ -72,22 +74,5 @@ namespace CardGameOfWar.App.Models
 
             return playerCards;
         }
-
-        public void ShuffleDealDeck(List<Player> players)
-        {
-
-            do
-            {
-                foreach (var player in players)
-                {
-                    var cardNumber = random.Next(0, OriginalCardDeck.CardDeck.Count - 1);
-
-                    player.CardDeck.Add(OriginalCardDeck.CardDeck.ElementAt(cardNumber));
-                    OriginalCardDeck.CardDeck.RemoveAt(cardNumber);
-                }
-
-            } while (OriginalCardDeck.CardDeck.Count > 0);
-        }
-
     }
 }
