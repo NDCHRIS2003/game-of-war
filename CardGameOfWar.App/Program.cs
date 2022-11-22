@@ -1,36 +1,40 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CardGameOfWar.App.Controller;
+using CardGameOfWar.App.Abstractions;
+using CardGameOfWar.App.Models;
+using CardGameOfWar.App.Service;
+using Microsoft.Extensions.DependencyInjection;
 
-while (true) 
+while (true)
 {
     try
     {
-        var trumpNumber = string.Empty;
-        int[] trumSuitRange = new[] { 0, 1, 2, 3 };
 
-        Console.WriteLine("Choose a Trump Suite number to play game then press enter \n(Diamond = 0, Spades = 1, Clubs = 2, Hearts = 3)");
-           
-        trumpNumber = Console.ReadLine()!;
-
-        if (trumpNumber.Equals("Stop", StringComparison.OrdinalIgnoreCase))
+        Console.WriteLine("Choose a game to play and then press enter \n(Game Of War = 0)\nType \"Stop\" to exit");
+        var gameNumber = Console.ReadLine()!;
+        if (gameNumber.Equals("Stop", StringComparison.OrdinalIgnoreCase))
             break;
-        if (trumSuitRange.Contains(int.Parse(trumpNumber)))
+        if (int.TryParse(gameNumber, out var gameType))
         {
-            var gamingEngine = new GameController(int.Parse(trumpNumber));
+            var gameEngine = BuildGameEngine(gameType);
 
-            gamingEngine.PlayGame();
+            OriginalCardDeck.ResetCardDeck();
 
-            Console.WriteLine("Press any number between 0,1,2,4 to play again or type stop to quit the game");
-        }
-        else
-        {
-            Console.WriteLine("Incorrect option chosen for Trump suite. Choose again");
+            gameEngine.PlayGame();
         }
     }
     catch (Exception)
     {
-        Console.WriteLine("Incorrect option chosen for Trump suite. Choose again");       
+        Console.WriteLine("Incorrect option chosen for game. Choose again");
     }
-
 }
 
+IGameOfWarEngine BuildGameEngine(int gameType)
+{
+    //setup our DI
+    var serviceProvider = new ServiceCollection()
+        .AddSingleton<IGameEngineService, GameEngineService>()
+        .BuildServiceProvider();
+
+    var gameService = serviceProvider.GetService<IGameEngineService>();
+    return gameService!.GetGameEngine(gameType);
+}
