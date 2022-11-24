@@ -128,25 +128,25 @@ namespace CardGameOfWar.App.Controller
                 playerOne.ScoreDeck.Add(playerOneCard);
                 playerOne.ScoreDeck.Add(playerTwoCard);
 
-                Console.WriteLine($"GameOfWarPlayer 1 wins with Score Pile: {playerOne.ShowScoreDeck()}");
-                Console.WriteLine($"GameOfWarPlayer 1 total cards: {playerOne.CardDeck.Count + playerOne.ScoreDeck.Count}");
-                Console.WriteLine($"GameOfWarPlayer 2 total cards: {playerTwo.CardDeck.Count + playerTwo.ScoreDeck.Count}");
+                Console.WriteLine($"Player 1 wins with Score Pile: {playerOne.ShowScoreDeck()}");
+                Console.WriteLine($"Player 1 total cards: {playerOne.CardDeck.Count + playerOne.ScoreDeck.Count}");
+                Console.WriteLine($"Player 2 total cards: {playerTwo.CardDeck.Count + playerTwo.ScoreDeck.Count}");
             }
             else if (compareCardValue < 0)
             {
                 playerTwo.ScoreDeck.Add(playerOneCard);
                 playerTwo.ScoreDeck.Add(playerTwoCard);
 
-                Console.WriteLine($"GameOfWarPlayer 2 wins with Score Pile: {playerTwo.ShowScoreDeck()}");
-                Console.WriteLine($"GameOfWarPlayer 2 total cards: {playerTwo.CardDeck.Count + playerTwo.ScoreDeck.Count}");
-                Console.WriteLine($"GameOfWarPlayer 1 total cards: {playerOne.CardDeck.Count + playerOne.ScoreDeck.Count}");
+                Console.WriteLine($"Player 2 wins with Score Pile: {playerTwo.ShowScoreDeck()}");
+                Console.WriteLine($"Player 2 total cards: {playerTwo.CardDeck.Count + playerTwo.ScoreDeck.Count}");
+                Console.WriteLine($"Player 1 total cards: {playerOne.CardDeck.Count + playerOne.ScoreDeck.Count}");
             }
             else
             {                
                 Console.WriteLine($"!!! War !!! \n");
-                Console.WriteLine($"GameOfWarPlayer 1 card is equal to GameOfWarPlayer 2 card \n");
-                Console.WriteLine($"GameOfWarPlayer 1 card: {playerOneCard.ToString()}");
-                Console.WriteLine($"GameOfWarPlayer 2 card: {playerTwoCard.ToString()}");
+                Console.WriteLine($"Player 1 card is equal to GameOfWarPlayer 2 card \n");
+                Console.WriteLine($"Player 1 card: {playerOneCard.ToString()}");
+                Console.WriteLine($"Player 2 card: {playerTwoCard.ToString()}");
                 BattleWar(playerOneCard, playerTwoCard);
             }
         }
@@ -181,9 +181,9 @@ namespace CardGameOfWar.App.Controller
                     playerOne.ScoreDeck.Add(playerTwoCard);
                     playerOne.ScoreDeck.AddRange(warCards);
 
-                    Console.WriteLine($"GameOfWarPlayer 1 wins with Score Pile: {playerOne.ShowScoreDeck()}");
-                    Console.WriteLine($"GameOfWarPlayer 1 total cards: {playerOne.CardDeck.Count + playerOne.ScoreDeck.Count}");
-                    Console.WriteLine($"GameOfWarPlayer 2 total cards: {playerTwo.CardDeck.Count + playerTwo.ScoreDeck.Count}");
+                    Console.WriteLine($"Player 1 wins with Score Pile: {playerOne.ShowScoreDeck()}");
+                    Console.WriteLine($"Player 1 total cards: {playerOne.CardDeck.Count + playerOne.ScoreDeck.Count}");
+                    Console.WriteLine($"Player 2 total cards: {playerTwo.CardDeck.Count + playerTwo.ScoreDeck.Count}");
                 }
                 else if(compareCardValue < 0)
                 {
@@ -195,9 +195,9 @@ namespace CardGameOfWar.App.Controller
                     playerTwo.ScoreDeck.Add(playerTwoCard);
                     playerTwo.ScoreDeck.AddRange(warCards);
 
-                    Console.WriteLine($"GameOfWarPlayer 2 wins with Score Pile: {playerTwo.ShowScoreDeck()}");
-                    Console.WriteLine($"GameOfWarPlayer 2 total cards: {playerTwo.CardDeck.Count + playerTwo.ScoreDeck.Count}");
-                    Console.WriteLine($"GameOfWarPlayer 1 total cards: {playerOne.CardDeck.Count + playerOne.ScoreDeck.Count}");
+                    Console.WriteLine($"Player 2 wins with Score Pile: {playerTwo.ShowScoreDeck()}");
+                    Console.WriteLine($"Player 2 total cards: {playerTwo.CardDeck.Count + playerTwo.ScoreDeck.Count}");
+                    Console.WriteLine($"Player 1 total cards: {playerOne.CardDeck.Count + playerOne.ScoreDeck.Count}");
                 }
                 else
                 {
