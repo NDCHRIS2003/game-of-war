@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tIXAgMq4z2FbE2sYvDsvPPj1K4654Q8YOFUcG7FHrrf2K77ai0273xuev1x5kKqL+kDjmB38ng6Ln53V0J4cCA==",
+  "dgSpecHash": "Ec2tT6u0Kz54dwiOYeXezdKmTKfyi6WDgXhWmgLSYW6MvpFOBShCF6p9PgayCbflYv9yWMjQWtgqvkGPk5Zusg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ndchr\\Desktop\\repo\\game-of-war\\CardGameOfWar.Test\\CardGameOfWar.Test.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\ndchr\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
     "C:\\Users\\ndchr\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\ndchr\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\ndchr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\ndchr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\ndchr\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
     "C:\\Users\\ndchr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ndchr\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

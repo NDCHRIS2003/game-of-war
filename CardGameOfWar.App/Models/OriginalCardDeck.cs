@@ -5,9 +5,10 @@ namespace CardGameOfWar.App.Models
 {
     public static class OriginalCardDeck
     {
-        private static List<Card> originalCardDeck = new();
-        public static int cardsInDeck = 52;
-        public static double winningRate = 0.75;
+        private static readonly List<Card> originalCardDeck = new();
+        private static readonly int[] _trumpSuites = new[] { 0, 1, 2, 3 };
+        public const int cardsInDeck = 52;
+        public static int[] TrumSuitRange { get { return _trumpSuites; } }
 
         public static List<Card> CardDeck { get {return originalCardDeck; } }
 
