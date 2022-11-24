@@ -147,6 +147,7 @@ namespace CardGameOfWar.App.Controller
                 Console.WriteLine($"Player 1 card is equal to GameOfWarPlayer 2 card \n");
                 Console.WriteLine($"Player 1 card: {playerOneCard.ToString()}");
                 Console.WriteLine($"Player 2 card: {playerTwoCard.ToString()}");
+
                 BattleWar(playerOneCard, playerTwoCard);
             }
         }

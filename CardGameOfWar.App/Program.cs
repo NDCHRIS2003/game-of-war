@@ -38,3 +38,4 @@ IGameOfWarEngine BuildGameEngine(int gameType)
     var gameService = serviceProvider.GetService<IGameEngineService>();
     return gameService!.GetGameEngine(gameType);
 }
+
